@@ -25,23 +25,23 @@ const Home = () => {
         <hr />
       </div>
 
-      <div classNameName="pets-catalog">
+      <div className="pets-catalog">
         <h2>Available Pets</h2>
         <div
-          classNameName="pets-catalog-container"
+          className="pets-catalog-container"
           style={{ display: "flex", justifyContent: "space-between" }}
         >
           <Card
-            img="./assets/fluffin.png"
+            img="/fluffin.png"
             title="Fluffin"
             description="🔥 Fire"
           />
           <Card
-            img="./assets/aqualo.png"
+            img="/aqualo.png"
             title="Aqualo"
             description="💧 Water"
           />
-          <Card img="./assets/zephy.png" title="Zephyr" description="🍃 Air" />
+          <Card img="/zephy.png" title="Zephyr" description="🍃 Air" />
         </div>
         <button onClick={btnClicked}>Browse More Pets</button>
         <hr />

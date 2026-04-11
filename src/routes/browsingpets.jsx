@@ -21,7 +21,7 @@ const BrowsingPets = () => {
       name: "Max",
       type: "Dog",
       breed: "German Shepherd",
-      img: "/explore/germanshepherd.jpeg ",
+      img: "/explore/germanshepherd.jpeg",
     },
     {
       slug: "pet4",
@@ -49,7 +49,7 @@ const BrowsingPets = () => {
       name: "Daisy",
       type: "Fish",
       breed: "Betta",
-      img: "/explore/fishnemo.jpeg  ",
+      img: "/explore/fishnemo.jpeg",
     },
     {
       slug: "pet8",
